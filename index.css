@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    
+    padding: 20px;
+    background-color: rgb(224, 130, 6);
+    
+}
+ul{
+    margin-left: 60%;
+}
+li{
+    text-decoration: none;
+    display: inline;
+    font-size: 15px;
+    padding: 10px;
+    margin: 2px;
+    color: rgb(253, 252, 252);
+    background-color: red;
+    border-radius: 5px;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    
+}
+.header-section{
+    display: flex;
+    padding-top: 70px;
+    background-image: url(img/shapes/top-banner.png);
+    background-repeat: no-repeat;
+}
+#header-half-width1{
+    padding-top: 10px;
+    margin-left: 150px;
+}
+#header-half-width1 h1{
+    font-size: 55px;
+    margin-top: 100px;
+}
+#header-half-width1 p{
+    width: 70%;
+    margin-top: 40px;
+}
+
+#header-half-width1 a{
+    margin-top: 20px;
+    margin-left: 15px;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    background-image: linear-gradient(tomato , orange);
+}
+.Orange-color {
+    color: orange;
+}
+.header-half-width{
+    width: 50%;
+}
+
+.header-half-width img{
+    width: 80%;
+}
+.about-section{
+    display: flex;
+    background-image: url(img/shapes/7.png);
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    padding-left: 200px;
+    padding-top: 80px;
+}
+#about-half-width{
+    margin-left: 120px;
+}
+.about-half-width img{
+    max-width: 80%;
+}
+.about-half-width h1{
+    font-size: 40px;
+    padding-top: 100px;
+}
+.about-half-width p{
+    padding-top: 55px;
+    font-size: 18px;
+    width: 70%;
+    text-align: justify;
+}
+.about-half-width a{
+    margin-top: 70px;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    background-image: linear-gradient(orange , tomato);
+    padding: 15px 35px;
+    border-radius: 30px;
+    color: white;
+}
+.recipies-section{
+    text-align: center;
+    padding: 50px 0px;
+}
+.recipies-section h1{
+    font-size: 40px;
+}
+.recipies-section p{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.recipies-item{
+    display: flex;
+    padding-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+ #recipies-item-1{
+
+    border-left: 7px solid;
+    border-radius:15px;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+   
+    
+}
+#recipies-item-2{
+    border-left: 7px solid;
+    border-radius:15px;
+    border-image: linear-gradient(purple,tomato);
+    border-image-slice: 1;
+    
+    
+}
+#recipies-item-3{
+    border-left: 7px solid;
+    border-radius:15px;
+    border-image: linear-gradient(orange,yellow);
+    border-image-slice: 1;
+    
+
+} 
+.item-div{
+    box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 25%);
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 40px;
+    
+}
+.item-div img{
+    width: 85%;
+    height: 320px;
+    border-radius: 35px;
+    padding: 20px;
+}
+.item-div p{
+    padding: 20px;
+}
+.social-media{
+    display: flex;
+    border:10px solid orange;
+    box-shadow: 0px 9px 22px 2px rgb(0 0 0 / 25%);;
+    border-radius: 30px;
+    margin-right: 110px;
+    margin-left: 110px;
+    margin-bottom: 70px;
+}
+
+.social-item{
+    padding: 70px 150px;
+}
+.social-item h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+}
+.social-item p{
+    width: 190%;
+    margin-left: -15px;
+}
+.Form-section{
+    display: flex;
+    padding-top: 80px;
+    margin-left: 250px;
+    margin-right: 120px;
+    padding-bottom: 70px;
+}
+
+.Form-section img{
+    width: 80%;
+    
+}
+.Form-section form {
+    padding-top: 80px;
+    padding-left: 40px;
+
+}
+.Form-header{
+    font-size: 40px;
+    color: orange;
+
+}
+.Form-section form input{
+    padding: 15px 70px;
+    border-radius: 13px;
+}
+.button-From{
+    background-color: orange;
+}
+
+footer{
+    background-color:rgb(0, 2, 12);
+    padding: 25px;
+    text-align: center;
+}
+footer h1{
+    font-size: 40px;
+    color: orange;
+}
+footer span{
+    color: red;
+}
+footer p{
+    padding-top: 25px;
+    color: white;
+    padding-bottom: 30px;
+}
+
